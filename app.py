@@ -15,7 +15,7 @@ def get_advice():
 
     input_text = (
         f"As a health advisor, please provide three specific health tips for "
-        f"{name}, a {age}-year-old who is currently smoking. "
+        f"{name}, a {age}-year-old who is currently involved in {behavior}. "
         "Focus on diet, exercise, and stress management."
     )
 
