@@ -4,7 +4,7 @@ from transformers import pipeline
 
 app = Flask(__name__)
 # Load the Flan-T5 model
-model = pipeline("text2text-generation", model="google/flan-t5-large")
+model = pipeline("text2text-generation", model="google/flan-t5-base")
 
 @app.route('/getAdvice', methods=['POST'])
 def get_advice():
